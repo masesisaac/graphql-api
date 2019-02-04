@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start --env production",
+    "start": "node .",
     "dev": "nodemon .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,8 +16,7 @@
     "koa": "^2.7.0",
     "koa-graphql": "^0.8.0",
     "koa-mount": "^4.0.0",
-    "mongoose": "^5.4.9",
-    "pm2": "^3.2.9"
+    "mongoose": "^5.4.9"
   },
   "devDependencies": {
     "nodemon": "^1.18.9"
